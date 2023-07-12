@@ -53,9 +53,6 @@ header{
     margin:32px 628px 147px 240px;
 }
 /* main styles */
-#featured-flowers{
-
-}
 #featured-header{
     color: #272727;
     text-align: center;
@@ -117,25 +114,61 @@ header{
     padding: 100px 100px 100px 100px;
 }
 #hot-deals{
-    background-color: #E554730D;
-    width: 1920px;
-    height: 620px;
-    
+    background-color: rgba(229, 84, 115, 0.05);
+    max-width:1920px;
+    height:450px;
     background-image: url(../Flower\ Asset/pngwing\ 8.png);
     background-repeat: no-repeat;
-    background-position: right;
-    width: 320px;
-    height: 420px;
-    margin-left: 186px;
+    background-position:120cqmin;
+    padding:200px 50px 100px 395px;
+    margin-top:128px;
     align-items: center;
-    padding: 100px 430px 100px 0px;
-    display: block;
-    text-align: left;
-    margin-top: 230px;
-    margin-left: 423px;
+    display:block;
 }
 #btn-hot-deals{
-    margin-left: 50px;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    margin:32px 628px 147px 0px;
 }
-.hot-deals{
+#btn-email{
+    margin: 40px 645px ;
+}
+/* social promotion related styles */
+#instagram >div{
+    text-align:center;
+}
+#more-flowers{
+    display: flex;
+    width: 1400px;
+    height: 320px;
+    align-items: center;
+    justify-content: center;
+    margin-left:240px;
+    margin-right:240px;
+    margin-top:100px;
+}
+/* subscription related styles */
+#insert-email{
+    background-image: url(../Flower\ Asset/Rectangle\ 9.png);
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+    width: 1440px;
+    height: 449px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+#email-paragraph{
+    margin-top: 100px;
+    padding-top: 160px;;
+}
+/* footer related styles */
+#footer-text{
+    text-align: center;
+    background-color: #111010;
+    width: 1922px;
+    height: 449px;
+    padding-top: 100px;
 }
